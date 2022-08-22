@@ -1,0 +1,23 @@
+server:
+  port: 9999
+
+#代码中的配置参数
+appId:  #//公众号appId
+secret:  #//公众号secret
+toUser:  #//推送的用户,微信id
+templateId:  #//模板id
+caiHongPiKey:  #//彩虹屁Key
+ingDate:  #//恋爱日期   日期格式:yyyy-MM-dd
+meetDate:  #//见面日期     日期格式:yyyy-MM-dd
+regionCoding:  #行政区编码
+platKey:  #百度地图Key
+
+
+## 注册微信测试账号，编辑模板 https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+
+##  模板
+##  我的超级宇宙无敌可爱的乖乖宝贝耀文早上好呀!!! 要记得吃早餐哟!! 下面是今天的天气预报: {{riqi.DATA}} {{beizhu.DATA}} 天气：{{tianqi.DATA}} 最低气温：{{low.DATA}}度 最高气温：{{high.DATA}}度 今天是我们恋爱的第{{lianai.DATA}}天 我们下次见面还有{{shengri.DATA}}天 {{caihongpi.DATA}} {{jinju.DATA}}
+
+## 百度地图开放平台 https://lbsyun.baidu.com/apiconsole/center#/home
+
+## 彩虹屁平台 https://www.tianapi.com/
